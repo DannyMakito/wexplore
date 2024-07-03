@@ -12,10 +12,11 @@ export const Button = ({
     onClick,
     buttonStyle,
     buttonSize
-}) =>{
-    const checkButtonStyle = STYLES.include(buttonStyle) ? buttonStyle: STYLES[0];
 
-    const checkButtonSize = SIZE.include(buttonSize)? buttonSize: SIZE[0];
+}) =>{
+    const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle: STYLES[0];
+
+    const checkButtonSize = SIZE.includes(buttonSize)? buttonSize: SIZE[0];
 
     return(
         <Link>
