@@ -8,9 +8,11 @@ function App() {
     <div className="App">
     <Router>
       <Navbar />
-      <Routes>
-        <Route path=''/>
-      </Routes>
+        
+       <Routes>
+       <Route path='/'  />
+       </Routes>
+        
       </Router>  
     </div>
   );
