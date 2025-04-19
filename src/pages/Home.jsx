@@ -3,6 +3,7 @@ import React from 'react';
 
 const Home = () => {
   return (
+
     <div className='relative h-screen bg-cover bg-center'
            style={{backgroundImage:"url('/images/image1.jpg')"}}>
 
@@ -15,6 +16,8 @@ const Home = () => {
             transform transition duration-300 hover:scale-105'> Get started</button>
         </div>
     </div>
+
+
   )
 }
 
