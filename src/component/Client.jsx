@@ -18,7 +18,7 @@ location: 'We provid easy and quick flight booking'
     name:'Learning',
     image: '/images/13.webp',
     text: 'Go on a working holiday, or learn to surf!',
-   location: 'We provid easy and quick flight booking' 
+   location: 'We provid easy and quick flight bookig' 
 }]
 
 const Client = () => {
