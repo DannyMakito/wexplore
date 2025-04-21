@@ -14,11 +14,11 @@ const services =[
 },
 {icon: <FaUmbrellaBeach  size={30}  className='text-4x1 text-blue-500'/>,
     title: 'Beach Tours booking',
-    description: 'We provid easy and quick flight booking' 
+    description: 'We provid easy and quick flight booking with no hustle but just personalized services' 
 },
 {icon: <FaConciergeBell size={30} className='text-4x1 text-blue-500' />,
     title: 'Concierge Service',
-    description: 'We provid easy and quick flight booking' 
+    description: 'We enrich the lives of our members through authentic and personalized services that transform their day-to-day aspirations and bucket-list dreams into reality.' 
 }]
 
 const Services = () => {
