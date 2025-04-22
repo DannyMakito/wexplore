@@ -13,7 +13,7 @@ function App() {
 
   return (
     
- <BrowserRouter>
+ <BrowserRouter basename="/vite-react-wexplore/">
   <NavBar/>
   <Routes>
       <Route path="/" element={<Home />}></Route>
